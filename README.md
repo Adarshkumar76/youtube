@@ -1,26 +1,26 @@
 ### Debouncing:
 
-typing slow: 200ms
-typing fast: 30ms
+    typing slow: 200ms
+    typing fast: 30ms
 
-Debouncing with 200ms
--If difference between two key strokes is <200ms - Decline the API call
--If it is > 200ms make the API call
+    Debouncing with 200ms
+        -If difference between two key strokes is <200ms - Decline the API call
+        -If it is > 200ms make the API call
 
 ### Caching
 
-time complexity to search in array is = O(n)
-time complexity to search in object (map, hashMap) is = O(1)
+    time complexity to search in array is = O(n)
+    time complexity to search in object (map, hashMap) is = O(1)
 
-[i, in, ind, indi, india, .....]
+            [i, in, ind, indi, india, .....]
 
-{
-i,
-in,
-ind,
-indi,
-india,
-}
+    {
+        i,
+        in,
+        ind,
+        indi,
+        india,
+    }
 
 
 ### Live Chat 
